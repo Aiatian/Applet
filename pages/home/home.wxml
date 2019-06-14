@@ -1,0 +1,2 @@
+<text class='title'>this is home \n</text>
+<button bindtap='toAbout' size='mini'>点我</button>

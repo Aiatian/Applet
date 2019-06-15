@@ -1,13 +1,42 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/community/community",
+    "pages/chat/chat",
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "我的第一个小程序",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "动漫文学社",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "主页",
+      "iconPath": "images/assets/tabbar/home.png",
+      "selectedIconPath": "images/assets/tabbar/home_active.png"
+     
+    },{
+      "pagePath": "pages/community/community",
+      "text": "社区",
+      "iconPath": "images/assets/tabbar/community.png",
+      "selectedIconPath": "images/assets/tabbar/community_active.png"
+    },{
+      "pagePath": "pages/chat/chat",
+      "text": "聊天",
+      "iconPath": "images/assets/tabbar/chat.png",
+      "selectedIconPath": "images/assets/tabbar/chat_active.png"
+    },{
+      "pagePath": "pages/user/user",
+      "text": "个人信息",
+      "iconPath": "images/assets/tabbar/user.png",
+      "selectedIconPath": "images/assets/tabbar/user_active.png"
+     
+    }]
   },
   "sitemapLocation": "sitemap.json"
+  
 }

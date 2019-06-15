@@ -1,4 +1,4 @@
-// pages/about/about.js
+// pages/chat/chat.js
 Page({
 
   /**
@@ -7,7 +7,6 @@ Page({
   data: {
 
   },
- 
 
   /**
    * 生命周期函数--监听页面加载
